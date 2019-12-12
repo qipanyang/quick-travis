@@ -1,5 +1,5 @@
 import {Button} from 'rbx';
-import React, {useState} from 'react';
+import React from 'react';
 import {db} from '../../db';
 import {getCourseNum, getCourseTerm, hasConflict, timeParts} from './time';
 

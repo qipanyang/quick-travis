@@ -12,7 +12,7 @@ import {addScheduleTimes} from './components/Course/time';
 
 // google authentication: project-quick_react
 
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 // function App() {
