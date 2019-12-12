@@ -19,6 +19,7 @@ const saveCourse = (course, meets) => {
 
 const Course = ({course, state, user}) => (
     <Button 
+    data-testid = {getCourseNum(course)}
     data-cy="course"
     color={buttonColor(state.selected.includes(course))} 
     onClick={()=>state.toggle(course)}
