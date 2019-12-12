@@ -1,7 +1,7 @@
 import {Button} from 'rbx';
 import React, {useState} from 'react';
 import Course from './Course';
-import {buttonColor} from './Course/Course';
+// import {buttonColor} from './Course/Course';
 import {getCourseTerm, terms} from './Course/time';
 
 
